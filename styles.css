@@ -1,0 +1,68 @@
+.wrap-section {
+    width: 100%;
+}
+.wrap-colecao-exercicios {
+    display: none;
+}
+.destaque {
+    font-weight: bold;
+}
+.nome-exercicio {
+    padding: 1em 0;
+}
+.link-youtube a:before {
+    content: "➡️ ";
+}
+.link-youtube a {
+    display: block;
+    padding: 0.5em 0;
+    text-decoration: none;
+}
+html {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #111;
+}
+body {
+    background:
+    linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #999 78%),
+    linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+    #444;
+    background-size: 16px 48px;
+}
+article {
+    background-color: aliceblue;
+    border-radius: 1em;
+    display: block;
+    margin: 1em auto 1em auto;
+    padding: 1em;
+    width: 90%;
+}
+iframe {
+    max-width: 100%;
+}
+ul {
+    margin: 1em 0;
+}
+li:before {
+    content: "⚠️ "
+}
+li {
+    list-style-type: none;
+    padding: 0.5em 0;
+}
+h2, h3 {
+    font-weight: bold;
+}
+h2 {
+    font-size: 2em;
+    max-height: 2em;
+    padding: 0.5em 0;
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 1em;
+    padding: 0.5em 0;
+    text-align: left;
+}
